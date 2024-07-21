@@ -1,0 +1,55 @@
+.foto-perfil {
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    border-radius: 50%;
+}
+.corPrimaria {
+    background-color: #bfdf76;
+  } 
+  .corSecundaria {
+    background-color: #8799e9;
+  }
+  .titulosBrancos{
+    /*text-decoration: underline;*/
+    text-underline-position: below;
+    padding-bottom: 20px;
+    /*text-transform: uppercase;*/
+    font-weight: 700;
+    color: white;  
+  }
+
+  .titulosVerdes{
+    /*text-decoration: underline;*/
+    text-underline-position: below;
+    padding-bottom: 20px;
+    /*text-transform: uppercase;*/
+    font-weight: 700;
+    color: rgb(3, 73, 3);  
+  }
+
+  .texto-branco {
+    color: white !important;
+  }
+
+  /*Retira todas as margens da classe jumbotron, que são os espaçamentos entre as divs*/
+  .jumbotron {
+    margin-bottom: 0px;
+  }
+  /*Vamos tirar a margen do footer e colocar um padding de tantos pixeis*/
+  .text-footer{
+    margin: 0px;
+    padding-top: 15px; /*queremos que preencha o espaço vazio*/
+    padding-bottom: 15px; /*queremos que preencha o espaço vazio*/
+  }
+
+  .disponivel {
+    margin: 0px;
+    padding-top: 15px; /*queremos que preencha o espaço vazio*/
+    padding-bottom: 15px; /*queremos que preencha o espaço vazio*/
+  }
+
+  /*Este código faz com que ao clicar em um link a página role vagarosamente*/
+  html{
+    scroll-behavior: smooth;
+  }

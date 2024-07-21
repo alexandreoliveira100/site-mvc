@@ -1,0 +1,17 @@
+{
+    "description": "Projeto Site",
+    "authors": [
+        {
+            "name": "Alexandre de Oliveira",
+            "email": "alexsandergalvez123@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core",
+            "App\\": "app",
+            "Sts\\": "app/sts"
+        }
+    },
+    "require": {}
+}
